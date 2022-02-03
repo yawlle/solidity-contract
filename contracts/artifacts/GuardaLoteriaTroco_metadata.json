@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/guardaLoteriaTroco.sol": "GuardaLoteriaTroco"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/guardaLoteriaTroco.sol": {
+			"keccak256": "0xd8d3bbd063aaf573d86c798de86c380412bd65511c602bbf9fd6506bb5ba2a7e",
+			"urls": [
+				"bzzr://990fe0acc9adbca98affa2d719e35d87a08a05a59189c752011c999551bdf8a1"
+			]
+		}
+	},
+	"version": 1
+}

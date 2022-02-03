@@ -1,0 +1,55 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"görli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "60806040526000600255348015601457600080fd5b5060358060226000396000f3006080604052600080fd00a165627a7a72305820146f07e07bece13ac467dedb0ac8bcc47ba39e28dd1436bcceda34dcf44f77a30029",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 PUSH1 0x2 SSTORE CALLVALUE DUP1 ISZERO PUSH1 0x14 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x35 DUP1 PUSH1 0x22 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN STOP PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 EQ PUSH16 0x7E07BECE13AC467DEDB0AC8BCC47BA3 SWAP15 0x28 0xdd EQ CALLDATASIZE 0xbc 0xce 0xda CALLVALUE 0xdc DELEGATECALL 0x4f PUSH24 0xA30029000000000000000000000000000000000000000000 ",
+			"sourceMap": "25:112:0:-;;;128:1;102:27;;25:112;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:112:0;;;;;;;"
+		},
+		"deployedBytecode": {
+			"linkReferences": {},
+			"object": "6080604052600080fd00a165627a7a72305820146f07e07bece13ac467dedb0ac8bcc47ba39e28dd1436bcceda34dcf44f77a30029",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 EQ PUSH16 0x7E07BECE13AC467DEDB0AC8BCC47BA3 SWAP15 0x28 0xdd EQ CALLDATASIZE 0xbc 0xce 0xda CALLVALUE 0xdc DELEGATECALL 0x4f PUSH24 0xA30029000000000000000000000000000000000000000000 ",
+			"sourceMap": "25:112:0:-;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "10600",
+				"executionCost": "5072",
+				"totalCost": "15672"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}

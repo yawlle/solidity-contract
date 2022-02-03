@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "enviado",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"name": "_numero",
+						"type": "uint256"
+					},
+					{
+						"name": "_numeroSorteadoGrande",
+						"type": "uint256"
+					},
+					{
+						"name": "_contador",
+						"type": "uint16"
+					},
+					{
+						"name": "_dono",
+						"type": "address"
+					},
+					{
+						"name": "_contrato",
+						"type": "address"
+					},
+					{
+						"name": "_saldo",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "numeroInicial",
+						"type": "uint16"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/GuardaLoteria2.sol": "GuardaLoteria"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/GuardaLoteria2.sol": {
+			"keccak256": "0x8e2d42c4b49e93168070fd89cb381cdf2003d32048ba730e376adebe20c7a3ea",
+			"urls": [
+				"bzzr://f201fcf09bda31d5ffdc4734c471c8cc8c358d5ff3b165463ed494cca5b6e5a2"
+			]
+		}
+	},
+	"version": 1
+}

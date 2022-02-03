@@ -1,0 +1,176 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "kill",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "sortear",
+				"outputs": [
+					{
+						"name": "_numeroSorteado",
+						"type": "uint8"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "palpiteEnviado",
+						"type": "uint256"
+					}
+				],
+				"name": "enviarPalpite",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "verificaMeuPalpite",
+				"outputs": [
+					{
+						"name": "palpite",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "contarPalpites",
+				"outputs": [
+					{
+						"name": "count",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "_nome",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "pagante",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "troco",
+						"type": "uint256"
+					}
+				],
+				"name": "TrocoEnviado",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "remetente",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "palpite",
+						"type": "uint256"
+					}
+				],
+				"name": "PalpiteRegistrado",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "resultado",
+						"type": "uint256"
+					}
+				],
+				"name": "SorteioPostado",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "premioTotal",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"name": "premioIndividual",
+						"type": "uint256"
+					}
+				],
+				"name": "PremiosEnviados",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Loteria.sol": "Loteria"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Loteria.sol": {
+			"keccak256": "0x2bf72fac4836ce3d2fbff15d7e8bd94168304d7ac811cec0a24ccb9c7836b88b",
+			"urls": [
+				"bzzr://1a0e57222939c259dc0a0c7248a62524b0051e67814db68d0d1bc6fbaa3204cc"
+			]
+		}
+	},
+	"version": 1
+}
